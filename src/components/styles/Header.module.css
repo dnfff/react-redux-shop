@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   padding: 25px 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -14,6 +16,7 @@
   align-items: center;
   justify-content: space-between;
   flex-grow: 1;
+  flex-wrap: wrap;
 }
 
 .user {

@@ -51,7 +51,7 @@ const Header = () => {
         <Link to={ROUTES.CART} className={styles.favourites}>
           <img className="icon" src={loop}/>
         </Link>
-        <span className={styles.count}>2</span>
+        {/* <span className={styles.count}>2</span> */}
       </div>
 
       </div>

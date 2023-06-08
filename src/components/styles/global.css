@@ -9,6 +9,7 @@ body {
   color: #fff;
   font-weight: 500;
   padding-bottom: 20px;
+  min-height: 100vh;
 }
 
 h1,
@@ -29,8 +30,10 @@ p {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  margin-right: auto;
+  color: var(--header-text);
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
 }
 
 input,
@@ -56,8 +59,9 @@ li {
 }
 
 .app {
-  width: 1274px;
   margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
 }
 
 .flex {
